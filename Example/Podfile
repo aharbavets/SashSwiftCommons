@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'SashSwiftCommons_Example', :exclusive => true do
+  pod 'SashSwiftCommons', :path => '../'
+end
+
+target 'SashSwiftCommons_Tests', :exclusive => true do
+  pod 'SashSwiftCommons', :path => '../'
+
+  pod 'Quick', '~> 0.8'
+  pod 'Nimble', '~> 3.0'
+end
